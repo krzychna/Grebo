@@ -1,14 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    char obj;
-    char *wch1;
-    char *wch2;
-    double *wd;
-
-    wch1 = &obj;
-    wch2 = wch1;
-    wd = reinterpret_cast<double* >(wch1);
-    wd = (double *) wch1;
+    int *wsk;
+    int wsk_n = 0xa2ff4;
+    wsk = reinterpret_cast<int*> (wsk_n);
+    wsk = nullptr;
+    cout << wsk;
     return 0;
 }
