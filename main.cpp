@@ -9,5 +9,6 @@ int main() {
     wch1 = &obj;
     wch2 = wch1;
     wd = reinterpret_cast<double* >(wch1);
+    wd = (double *) wch1;
     return 0;
 }
