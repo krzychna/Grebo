@@ -1,36 +1,56 @@
 #include <iostream>
-#include <cstring>
-
 using namespace std;
-char** fun ();
+char* fun(char* wsk, int rozmiar);
 
 int main() {
-    char** linijka = fun();
-    for (int i = 0; i <10 ; ++i) {
-        char znak[3] = { 48+i};
-        *(linijka + i ) = new char[80];
-        strcat(strcpy(*(linijka+i),"to jest linijka "),znak);
+    constexpr  int rozmiar = 10;
+    char* wsk;
+    char tab[rozmiar] = {" TEKST"};
+    wsk =tab;
+    fun(tab, rozmiar);
+    for (int i = 0; i <rozmiar ; ++i) {
+       cout<<*(wsk+i);
     }
-    for (int j = 0; j <10 ; ++j) {
-        cout<<*(linijka+j)<<endl;
-    }
-    char * zamiana = *(linijka+3);
-    *(linijka+3) = *(linijka+6);
-    *(linijka+6) = zamiana;
-    cout<< "\n\n\n";
-    for (int j = 0; j <10 ; ++j) {
-        cout<<*(linijka+j)<<endl;
-    }
-    for (int k = 0; k <10 ; ++k) {
-        delete[] *(linijka+k);
-    }
-    delete[] linijka;
     return 0;
 }
-
-char** fun(){
-    return new char*[10];
+char* fun(char* wsk, int rozmiar){
+    constexpr int rozmiaruw = 8;
+    char* zamiana = wsk;
+    char* nowa = new char [rozmiar];
+    int l_tekst = 0;
+    char tab1[rozmiaruw] = {"UWAGA: "};
+    char* wsk1 = tab1;
+    while (*zamiana++)
+    {
+        l_tekst++;
+    }
+    if (rozmiaruw>=rozmiar) {
+        return wsk;
+    }
+    if (rozmiar-rozmiaruw < 4)
+    {
+        for (int i = 0; i < rozmiaruw; ++i) {
+            *(nowa + i) = *(wsk1 + i);
+        }
+        for (int i = rozmiar-1; i >rozmiar-4 ;i--) {
+            *(nowa+i) = '.';
+        }
+    }
+    else{
+        for (int i = 0; i <rozmiaruw ; ++i) {
+            *(nowa+i) = *(wsk1+i);
+        }
+        for (int j = rozmiaruw-1, i =0; j <rozmiar ; ++j) {
+            *(nowa+j) = *(wsk+i++);
+        }
+    }
+    for (int i = 0; i <rozmiar ; ++i) {
+        *(wsk+i) = *(nowa+i);
+    }
+    delete[] nowa;
+    return wsk;
 }
+
 
 
 
