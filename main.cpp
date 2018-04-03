@@ -1,39 +1,37 @@
 #include <iostream>
+#include <cstring>
+
 using namespace std;
-
-
-double *kreator_tablicy(int rozmiar);
-void fun (double *tab1,double *tab2, double *tab3, int rozmiar);
+char** fun ();
 
 int main() {
-    auto *wsk = new int;
-    const int rozmiar = 20;
-    double *wsk1 = kreator_tablicy(rozmiar);
-    double *wsk2 = kreator_tablicy(rozmiar);
-    double *wsk3 = kreator_tablicy(rozmiar);
-    for (int i = 0; i <rozmiar ; ++i) {
-        *(wsk1+i) = i;
-        *(wsk2+i) = 2*i;
-
+    char** linijka = fun();
+    for (int i = 0; i <10 ; ++i) {
+        char znak[3] = { 48+i};
+        *(linijka + i ) = new char[80];
+        strcat(strcpy(*(linijka+i),"to jest linijka "),znak);
     }
-    fun(wsk1,wsk2,wsk3,rozmiar);
-    for (int j = 0; j <rozmiar ; ++j) {
-        cout<<"wsk1 :"<<j<<". "<<*(wsk1+j);
-        cout<<"\twsk2 :"<<j<<". "<<*(wsk2+j);
-        cout<<"\twsk3 :"<<j<<". "<<*(wsk3+j)<<endl;
+    for (int j = 0; j <10 ; ++j) {
+        cout<<*(linijka+j)<<endl;
     }
-
-    delete[] wsk1;
-    delete[] wsk2;
-    delete[] wsk3;
-
+    char * zamiana = *(linijka+3);
+    *(linijka+3) = *(linijka+6);
+    *(linijka+6) = zamiana;
+    cout<< "\n\n\n";
+    for (int j = 0; j <10 ; ++j) {
+        cout<<*(linijka+j)<<endl;
+    }
+    for (int k = 0; k <10 ; ++k) {
+        delete[] *(linijka+k);
+    }
+    delete[] linijka;
+    return 0;
 }
 
-double *kreator_tablicy(int rozmiar){
-    return new double[rozmiar];
+char** fun(){
+    return new char*[10];
 }
-void fun (double *tab1,double *tab2, double *tab3, int rozmiar){
-    for (int i = 0; i <rozmiar ; ++i) {
-        *(tab3+i) = *(tab1+i)*(*(tab2+i));
-    }
-}
+
+
+
+
