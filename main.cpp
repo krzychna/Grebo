@@ -1,57 +1,111 @@
 #include <iostream>
 using namespace std;
-char* fun(char* wsk, int rozmiar);
+#include <vector>
 
+bool zgiecie_ramienia();
+bool obrot_ramienia();
+
+bool zgiecie_przedramienia();
+bool obrot_przedramienia();
+
+bool zgiecie_nadgarstka();
+bool obrot_nadgarstka();
+
+int wybor =0;
 int main() {
-    constexpr  int rozmiar = 10;
-    char* wsk;
-    char tab[rozmiar] = {" TEKST"};
-    wsk =tab;
-    fun(tab, rozmiar);
-    for (int i = 0; i <rozmiar ; ++i) {
-       cout<<*(wsk+i);
+    vector <bool (*)()> sekwencja_wsk;
+    vector <double> sekwencja_kat;
+    double kat;
+    while(true){
+        cout<<"Podaj kolejnosc funkcji w jakiej maja sie wykonac"
+                "\n"
+                "Do wyboru: \n"
+                "[1] zgiecie_ramienia \n"
+                "[2] obrot_ramienia \n"
+                "[3] zgiecie_przedramienia \n"
+                "[4] obrot_przedramienia \n"
+                "[5] zgiecie_nadgarstka \n"
+                "[6] obrot_nadgarstka \n"
+                "[7] Wykonaj wybrana sekwencje\n"
+                "[8] Wyczysc\n"
+                "[0] Koniec\n";
+        cin>>wybor;
+        switch  (wybor){
+            case 0:
+                return 0;
+            case 1:
+                sekwencja_wsk.push_back(&zgiecie_ramienia);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 2:
+                sekwencja_wsk.push_back(&obrot_ramienia);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 3:
+                sekwencja_wsk.push_back(&zgiecie_przedramienia);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 4:
+                sekwencja_wsk.push_back(&obrot_przedramienia);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 5:
+                sekwencja_wsk.push_back(&zgiecie_nadgarstka);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 6:
+                sekwencja_wsk.push_back(&obrot_nadgarstka);
+                cin>>kat;
+                sekwencja_kat.push_back(kat);
+                break;
+            case 7:
+                for (int i = 0; i < sekwencja_wsk.size() ; i++) {
+                    (sekwencja_wsk[i])();
+                    cout<<"o "<< sekwencja_kat[i] <<" stopni"<<endl;
+                }
+                break;
+            case 8:
+                sekwencja_wsk.clear();
+                sekwencja_kat.clear();
+                break;
+        }
     }
+
     return 0;
-}
-char* fun(char* wsk, int rozmiar){
-    constexpr int rozmiaruw = 8;
-    char* zamiana = wsk;
-    char* nowa = new char [rozmiar];
-    int l_tekst = 0;
-    char tab1[rozmiaruw] = {"UWAGA: "};
-    char* wsk1 = tab1;
-    while (*zamiana++)
-    {
-        l_tekst++;
-    }
-    if (rozmiaruw>=rozmiar) {
-        return wsk;
-    }
-    if (rozmiar-rozmiaruw < 4)
-    {
-        for (int i = 0; i < rozmiaruw; ++i) {
-            *(nowa + i) = *(wsk1 + i);
-        }
-        for (int i = rozmiar-1; i >rozmiar-4 ;i--) {
-            *(nowa+i) = '.';
-        }
-    }
-    else{
-        for (int i = 0; i <rozmiaruw ; ++i) {
-            *(nowa+i) = *(wsk1+i);
-        }
-        for (int j = rozmiaruw-1, i =0; j <rozmiar ; ++j) {
-            *(nowa+j) = *(wsk+i++);
-        }
-    }
-    for (int i = 0; i <rozmiar ; ++i) {
-        *(wsk+i) = *(nowa+i);
-    }
-    delete[] nowa;
-    return wsk;
+
 }
 
 
+bool zgiecie_ramienia(){
+    cout<<"zgiecie_ramienia ";
+    return true;
+}
+bool obrot_ramienia(){
+    cout<<"obrot_ramienia ";
+    return true;
+}
 
+bool zgiecie_przedramienia(){
+    cout<<"zgiecie_przedramienia ";
+    return true;
+}
+bool obrot_przedramienia(){
+    cout<<"obrot_przedramienia ";
+    return true;
+}
+
+bool zgiecie_nadgarstka(){
+    cout<<"zgiecie_nadgarstka ";
+    return true;
+}
+bool obrot_nadgarstka(){
+    cout<<"obrot_nadgarstka ";
+    return true;
+}
 
 
