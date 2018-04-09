@@ -3,4 +3,4 @@ project(Grebo)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Grebo main.cpp)
+add_executable(Grebo main.cpp cmake-build-debug/header.h)

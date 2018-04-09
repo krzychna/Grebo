@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/krzylap/C++/Grebo/cmake-build-debug/header.h">
+			<Option target="Grebo"/>
+		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/main.cpp">
 			<Option target="Grebo"/>
 		</Unit>
