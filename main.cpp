@@ -1,21 +1,37 @@
 #include <iostream>
-#include <string>
+#include <vector>
+#include "modul.h"
 using namespace std;
-int main(){
-    string stacja1;
-    string stacja2;
-    int klasa =2;
-    cout<<"Skad jedziesz?\n";
-    cin>>stacja1;
-    cout<<"Dokad jedziesz?\n";
-    cin>>stacja2;
-    cout<<"Jaka klasa?\n";
-    cin>>klasa;
-    string kreska = "*" +string(48,'-') + "*";
-    string komunikat = "|" + stacja1 + "--->" +stacja2+ ", klasa" + to_string(klasa);
-    string spacje = string(49-komunikat.size(),' ') + "|";
-    cout<< kreska<<endl;
-    cout<< komunikat<<spacje<<endl;
-    cout<<kreska;
+int MODUL::counter = 0;
+
+void popul (string &litery,vector <MODUL> &moduly);
+int comparename(vector <MODUL> &moduly, string name);
+int main() {
+    vector <MODUL> moduly;
+    string litery = "ABCDEFGJKLMNPQR";
+    string name;
+    cout<<"Wyszukaj po nazwie"<<endl;
+    cin>>name;
+    popul(litery,moduly);
+    cout<<comparename(moduly,name);
+    return 0;
 }
+
+void popul (string &litery,vector <MODUL> &moduly){
+    for (int i = 0; i <litery.length() ; i++) {
+        string name ({"CLUSTER_" + string({litery[i]})});
+        moduly.push_back(MODUL(name));
+    }
+}
+
+int comparename(vector <MODUL> &moduly, string name){
+    for (int i = 0; i <moduly.size() ; ++i) {
+        if (moduly[i].getnazwa() == ("CLUSTER_" + string({name}))){
+            return moduly[i].getid();
+        }
+    }
+    return -1;
+}
+
+
 
