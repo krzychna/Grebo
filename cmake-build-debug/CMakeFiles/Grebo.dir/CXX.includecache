@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/krzylap/C++/Grebo/klasy.h
+
 /home/krzylap/C++/Grebo/main.cpp
 iostream
 -
+klasy.h
+/home/krzylap/C++/Grebo/klasy.h
 
