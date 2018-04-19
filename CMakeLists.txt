@@ -3,4 +3,4 @@ project(Grebo)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Grebo main.cpp klasy.h)
+add_executable(Grebo main.cpp class.h Klasy.h Klasy.cpp)

@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/krzylap/C++/Grebo/klasy.h">
+		<Unit filename="/home/krzylap/C++/Grebo/Klasy.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/Klasy.h">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/class.h">
 			<Option target="Grebo"/>
 		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/main.cpp">

@@ -123,6 +123,33 @@ Grebo/fast:
 	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/build
 .PHONY : Grebo/fast
 
+Klasy.o: Klasy.cpp.o
+
+.PHONY : Klasy.o
+
+# target to build an object file
+Klasy.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.o
+.PHONY : Klasy.cpp.o
+
+Klasy.i: Klasy.cpp.i
+
+.PHONY : Klasy.i
+
+# target to preprocess a source file
+Klasy.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.i
+.PHONY : Klasy.cpp.i
+
+Klasy.s: Klasy.cpp.s
+
+.PHONY : Klasy.s
+
+# target to generate assembly for a file
+Klasy.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.s
+.PHONY : Klasy.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Grebo"
+	@echo "... Klasy.o"
+	@echo "... Klasy.i"
+	@echo "... Klasy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
