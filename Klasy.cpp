@@ -3,8 +3,5 @@
 //
 #include "Klasy.h"
 
-K::K():stopnie_celsjusza{0.0}, Farh_wart_bez{0.0}{};
-K::K(double stopnie):stopnie_celsjusza(stopnie),Farh_wart_bez{stopnie*9.0/5.0+32}{};
-K::operator double() {
-    return  stopnie_celsjusza;
+Tuplyw_czasu::Tuplyw_czasu(): dni{0},godziny{0},minuty{0},sekundy{0}{
 }
