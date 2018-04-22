@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Grebo.dir/main.cpp.o CMakeFiles/Grebo.dir/Klasy.cpp.o  -o Grebo 
+/usr/bin/c++  -g   CMakeFiles/Grebo.dir/main.cpp.o CMakeFiles/Grebo.dir/Klasy.cpp.o CMakeFiles/Grebo.dir/Klasy2.cpp.o  -o Grebo 

@@ -90,6 +90,12 @@
 		<Unit filename="/home/krzylap/C++/Grebo/Klasy.h">
 			<Option target="Grebo"/>
 		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/Klasy2.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/Klasy2.h">
+			<Option target="Grebo"/>
+		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/class.h">
 			<Option target="Grebo"/>
 		</Unit>

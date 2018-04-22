@@ -150,6 +150,33 @@ Klasy.cpp.s:
 	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.s
 .PHONY : Klasy.cpp.s
 
+Klasy2.o: Klasy2.cpp.o
+
+.PHONY : Klasy2.o
+
+# target to build an object file
+Klasy2.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.o
+.PHONY : Klasy2.cpp.o
+
+Klasy2.i: Klasy2.cpp.i
+
+.PHONY : Klasy2.i
+
+# target to preprocess a source file
+Klasy2.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.i
+.PHONY : Klasy2.cpp.i
+
+Klasy2.s: Klasy2.cpp.s
+
+.PHONY : Klasy2.s
+
+# target to generate assembly for a file
+Klasy2.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.s
+.PHONY : Klasy2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Klasy.o"
 	@echo "... Klasy.i"
 	@echo "... Klasy.s"
+	@echo "... Klasy2.o"
+	@echo "... Klasy2.i"
+	@echo "... Klasy2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
