@@ -6,9 +6,15 @@ protected:
     Tpodstawowa(int a, int b);
 
 public:
+    Tpodstawowa(Tpodstawowa& source);
     Tpodstawowa& operator=(const Tpodstawowa& source);
 };
 Tpodstawowa::Tpodstawowa(int a,int b):alfa{a},beta{b} {}
+Tpodstawowa::Tpodstawowa(Tpodstawowa &source) {
+    cout<< "Konstruktor kopiujacy";
+    this->beta = source.beta;
+    this->alfa = source.alfa;
+}
 
 Tpodstawowa& Tpodstawowa::operator=(const Tpodstawowa &source) {
     if (this!=&source) {
@@ -23,11 +29,16 @@ class Tpochodna: public Tpodstawowa
 public:
     double x,y;
     Tpochodna(int a=0, int b=0, double x=0, double y=0 );
+    Tpochodna(Tpochodna& source);
     Tpochodna&operator=(const Tpochodna & source);
     friend ostream& operator<<(ostream& ekran, Tpochodna& source );
 
 };
 Tpochodna::Tpochodna(int a, int b, double x, double y):Tpodstawowa(a,b), x{x},y{y} {
+}
+Tpochodna::Tpochodna(Tpochodna &source):Tpodstawowa(source) {
+   this->x = source.x;
+    this->y = source.y;
 }
 Tpochodna& Tpochodna::operator=(const Tpochodna &source) {
     if (this!=&source) {
@@ -45,8 +56,7 @@ ostream& operator<<(ostream& ekran, Tpochodna& source ){
 int main (){
 
     Tpochodna zloty(100,500,3.14,77.7);
-    Tpochodna drugi;
-    drugi = zloty;
+    Tpochodna drugi = zloty;
     cout<< drugi<<endl;
     return 0;
 
