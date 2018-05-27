@@ -11,36 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e412d462-ec03-40b3-aefa-1b80cb9e8910" name="Default" comment="str 693 LV">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Room.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Room.h" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Coach.cpp" afterPath="$PROJECT_DIR$/Coach.cpp" />
-      <change beforePath="$PROJECT_DIR$/Coach.h" afterPath="$PROJECT_DIR$/Coach.h" />
-      <change beforePath="$PROJECT_DIR$/chair.cpp" afterPath="$PROJECT_DIR$/chair.cpp" />
-      <change beforePath="$PROJECT_DIR$/chair.h" afterPath="$PROJECT_DIR$/chair.h" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/Coach.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/chair.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/chair.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/furniture.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/furniture.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/sofa.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Grebo.dir/sofa.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Grebo" afterPath="$PROJECT_DIR$/cmake-build-debug/Grebo" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Grebo.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Grebo.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/furniture.cpp" afterPath="$PROJECT_DIR$/furniture.cpp" />
-      <change beforePath="$PROJECT_DIR$/furniture.h" afterPath="$PROJECT_DIR$/furniture.h" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/sofa.cpp" afterPath="$PROJECT_DIR$/sofa.cpp" />
-      <change beforePath="$PROJECT_DIR$/sofa.h" afterPath="$PROJECT_DIR$/sofa.h" />
-    </list>
+    <list default="true" id="e412d462-ec03-40b3-aefa-1b80cb9e8910" name="Default" comment="str 693 LV" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -78,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Room.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
                 <element signature="e#86#103#0" expanded="true" />
               </folding>
@@ -156,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/chair.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -369,7 +340,7 @@
       <workItem from="1526658792710" duration="8412000" />
       <workItem from="1526981870719" duration="18313000" />
       <workItem from="1527235621508" duration="2718000" />
-      <workItem from="1527321923667" duration="13512000" />
+      <workItem from="1527321923667" duration="13573000" />
     </task>
     <task id="LOCAL-00001" summary="Do i remember git ?">
       <created>1520361403553</created>
@@ -382,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163670000" />
+    <option name="totallyTimeSpent" value="163731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="-4" width="1368" height="780" extended-state="6" />
@@ -801,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/Room.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
             <element signature="e#86#103#0" expanded="true" />
           </folding>
@@ -863,7 +834,7 @@
     <entry file="file://$PROJECT_DIR$/chair.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
           </folding>
@@ -883,7 +854,7 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
