@@ -26,3 +26,7 @@ int Furniture::getLegs() const {
 void Furniture::usiadz() {
     cout<<"Siadam na meblu"<<endl;
 }
+
+Furniture::~Furniture() {
+    cout<<__func__<<endl;
+}

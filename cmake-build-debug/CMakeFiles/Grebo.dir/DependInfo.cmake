@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/krzylap/C++/Grebo/Coach.cpp" "/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles/Grebo.dir/Coach.cpp.o"
+  "/home/krzylap/C++/Grebo/Room.cpp" "/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles/Grebo.dir/Room.cpp.o"
   "/home/krzylap/C++/Grebo/chair.cpp" "/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles/Grebo.dir/chair.cpp.o"
   "/home/krzylap/C++/Grebo/furniture.cpp" "/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles/Grebo.dir/furniture.cpp.o"
   "/home/krzylap/C++/Grebo/main.cpp" "/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles/Grebo.dir/main.cpp.o"

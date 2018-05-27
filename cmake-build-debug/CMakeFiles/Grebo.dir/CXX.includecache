@@ -16,6 +16,20 @@ Coach.h
 furniture.h
 /home/krzylap/C++/Grebo/furniture.h
 
+/home/krzylap/C++/Grebo/Room.cpp
+Room.h
+/home/krzylap/C++/Grebo/Room.h
+
+/home/krzylap/C++/Grebo/Room.h
+vector
+-
+Coach.h
+/home/krzylap/C++/Grebo/Coach.h
+sofa.h
+/home/krzylap/C++/Grebo/sofa.h
+chair.h
+/home/krzylap/C++/Grebo/chair.h
+
 /home/krzylap/C++/Grebo/chair.cpp
 furniture.h
 /home/krzylap/C++/Grebo/furniture.h
@@ -39,12 +53,16 @@ string
 /home/krzylap/C++/Grebo/main.cpp
 iostream
 -
+vector
+-
 chair.h
 /home/krzylap/C++/Grebo/chair.h
 sofa.h
 /home/krzylap/C++/Grebo/sofa.h
 Coach.h
 /home/krzylap/C++/Grebo/Coach.h
+Room.h
+/home/krzylap/C++/Grebo/Room.h
 
 /home/krzylap/C++/Grebo/sofa.cpp
 furniture.h

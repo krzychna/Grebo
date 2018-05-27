@@ -5,6 +5,13 @@ CMakeFiles/Grebo.dir/Coach.cpp.o: ../Coach.cpp
 CMakeFiles/Grebo.dir/Coach.cpp.o: ../Coach.h
 CMakeFiles/Grebo.dir/Coach.cpp.o: ../furniture.h
 
+CMakeFiles/Grebo.dir/Room.cpp.o: ../Coach.h
+CMakeFiles/Grebo.dir/Room.cpp.o: ../Room.cpp
+CMakeFiles/Grebo.dir/Room.cpp.o: ../Room.h
+CMakeFiles/Grebo.dir/Room.cpp.o: ../chair.h
+CMakeFiles/Grebo.dir/Room.cpp.o: ../furniture.h
+CMakeFiles/Grebo.dir/Room.cpp.o: ../sofa.h
+
 CMakeFiles/Grebo.dir/chair.cpp.o: ../chair.cpp
 CMakeFiles/Grebo.dir/chair.cpp.o: ../chair.h
 CMakeFiles/Grebo.dir/chair.cpp.o: ../furniture.h
@@ -13,6 +20,7 @@ CMakeFiles/Grebo.dir/furniture.cpp.o: ../furniture.cpp
 CMakeFiles/Grebo.dir/furniture.cpp.o: ../furniture.h
 
 CMakeFiles/Grebo.dir/main.cpp.o: ../Coach.h
+CMakeFiles/Grebo.dir/main.cpp.o: ../Room.h
 CMakeFiles/Grebo.dir/main.cpp.o: ../chair.h
 CMakeFiles/Grebo.dir/main.cpp.o: ../furniture.h
 CMakeFiles/Grebo.dir/main.cpp.o: ../main.cpp

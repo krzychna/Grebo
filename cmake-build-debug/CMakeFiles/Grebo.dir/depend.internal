@@ -5,6 +5,13 @@ CMakeFiles/Grebo.dir/Coach.cpp.o
  /home/krzylap/C++/Grebo/Coach.cpp
  /home/krzylap/C++/Grebo/Coach.h
  /home/krzylap/C++/Grebo/furniture.h
+CMakeFiles/Grebo.dir/Room.cpp.o
+ /home/krzylap/C++/Grebo/Coach.h
+ /home/krzylap/C++/Grebo/Room.cpp
+ /home/krzylap/C++/Grebo/Room.h
+ /home/krzylap/C++/Grebo/chair.h
+ /home/krzylap/C++/Grebo/furniture.h
+ /home/krzylap/C++/Grebo/sofa.h
 CMakeFiles/Grebo.dir/chair.cpp.o
  /home/krzylap/C++/Grebo/chair.cpp
  /home/krzylap/C++/Grebo/chair.h
@@ -14,6 +21,7 @@ CMakeFiles/Grebo.dir/furniture.cpp.o
  /home/krzylap/C++/Grebo/furniture.h
 CMakeFiles/Grebo.dir/main.cpp.o
  /home/krzylap/C++/Grebo/Coach.h
+ /home/krzylap/C++/Grebo/Room.h
  /home/krzylap/C++/Grebo/chair.h
  /home/krzylap/C++/Grebo/furniture.h
  /home/krzylap/C++/Grebo/main.cpp

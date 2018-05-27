@@ -10,7 +10,7 @@
 class Chair:public Furniture{
     static int no_chair;
 public:
-
+    ~Chair() override ;
     void usiadz() override ;
     Chair( int legs, int people, const std::string &color);
 };

@@ -10,6 +10,7 @@
 class Coach: public Furniture{
     static int no_coach;
 public:
+    ~Coach() override ;
     void usiadz() override ;
     Coach(int legs, int people, const std::string &color);
 

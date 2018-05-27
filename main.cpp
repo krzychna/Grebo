@@ -1,7 +1,9 @@
 #include <iostream>
+#include <vector>
 #include "chair.h"
 #include "sofa.h"
 #include "Coach.h"
+#include "Room.h"
 
 using namespace std;
 
@@ -18,23 +20,15 @@ ostream& operator<<(ostream& cout, Furniture &furniture){
 
 
 int main(){
-    Chair krzeslo(4,1,"green");
-    Sofa sofa(8,3,"blue");
-    Coach kanapa (8,4,"black");
-
-    cout<<krzeslo;
-    cout<<sofa;
-    cout<<kanapa;
-
-    Furniture* tab[3];
-    tab[0] =&krzeslo;
-    tab[1] =&sofa;
-    tab[2] =&kanapa;
+    Room pokoj(1,1,1);
+    Furniture* tablica[3];
+    tablica[0] = pokoj.tab_sof[0];
+    tablica[1] = pokoj.tab_krzesla[0];
+    tablica[2] = pokoj.tab_kanapy[0];
 
     for (int i = 0; i <3 ; ++i) {
-        tab[i]->usiadz();
+        tablica[i]->usiadz();
     }
-
 
 
     return 0;

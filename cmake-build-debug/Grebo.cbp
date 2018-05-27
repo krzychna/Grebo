@@ -90,6 +90,12 @@
 		<Unit filename="/home/krzylap/C++/Grebo/Coach.h">
 			<Option target="Grebo"/>
 		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/Room.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/Room.h">
+			<Option target="Grebo"/>
+		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/chair.cpp">
 			<Option target="Grebo"/>
 		</Unit>

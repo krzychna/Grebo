@@ -26,5 +26,6 @@ public:
     const std::string &getColor() const;
 
     virtual void usiadz();
+    virtual ~Furniture();
 };
 #endif //GREBO_MEBEL_H

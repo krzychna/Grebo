@@ -10,6 +10,7 @@
 class Sofa: public Furniture{
     static int no_sofa;
 public:
+    ~Sofa() override ;
     void usiadz() override ;
     Sofa(int legs, int people, const std::string &color);
 

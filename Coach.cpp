@@ -7,9 +7,13 @@
 
 using namespace std;
 Coach::Coach(int legs, int people, const std::string &color): Furniture(legs,people,color) {
+    cout<<"Konsturktor kanapa" <<endl;
     no_coach++;
 }
 
 void Coach::usiadz() {
     cout<<"Siadam na kanapie"<<endl;
+}
+Coach::~Coach() {
+    cout<<__func__;
 }

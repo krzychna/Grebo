@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Grebo.dir/chair.cpp.o"
   "CMakeFiles/Grebo.dir/sofa.cpp.o"
   "CMakeFiles/Grebo.dir/Coach.cpp.o"
+  "CMakeFiles/Grebo.dir/Room.cpp.o"
   "Grebo.pdb"
   "Grebo"
 )

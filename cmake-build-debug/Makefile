@@ -150,6 +150,33 @@ Coach.cpp.s:
 	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Coach.cpp.s
 .PHONY : Coach.cpp.s
 
+Room.o: Room.cpp.o
+
+.PHONY : Room.o
+
+# target to build an object file
+Room.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Room.cpp.o
+.PHONY : Room.cpp.o
+
+Room.i: Room.cpp.i
+
+.PHONY : Room.i
+
+# target to preprocess a source file
+Room.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Room.cpp.i
+.PHONY : Room.cpp.i
+
+Room.s: Room.cpp.s
+
+.PHONY : Room.s
+
+# target to generate assembly for a file
+Room.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Room.cpp.s
+.PHONY : Room.cpp.s
+
 chair.o: chair.cpp.o
 
 .PHONY : chair.o
@@ -270,6 +297,9 @@ help:
 	@echo "... Coach.o"
 	@echo "... Coach.i"
 	@echo "... Coach.s"
+	@echo "... Room.o"
+	@echo "... Room.i"
+	@echo "... Room.s"
 	@echo "... chair.o"
 	@echo "... chair.i"
 	@echo "... chair.s"
