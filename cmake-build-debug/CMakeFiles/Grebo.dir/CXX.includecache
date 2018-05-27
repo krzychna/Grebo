@@ -6,11 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/home/krzylap/C++/Grebo/Klasy.cpp
+/home/krzylap/C++/Grebo/Coach.cpp
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+Coach.h
+/home/krzylap/C++/Grebo/Coach.h
 
-/home/krzylap/C++/Grebo/Klasy2.cpp
+/home/krzylap/C++/Grebo/Coach.h
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+
+/home/krzylap/C++/Grebo/chair.cpp
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+chair.h
+/home/krzylap/C++/Grebo/chair.h
+
+/home/krzylap/C++/Grebo/chair.h
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+
+/home/krzylap/C++/Grebo/furniture.cpp
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+
+/home/krzylap/C++/Grebo/furniture.h
+iostream
+-
+string
+-
 
 /home/krzylap/C++/Grebo/main.cpp
 iostream
 -
+chair.h
+/home/krzylap/C++/Grebo/chair.h
+sofa.h
+/home/krzylap/C++/Grebo/sofa.h
+Coach.h
+/home/krzylap/C++/Grebo/Coach.h
+
+/home/krzylap/C++/Grebo/sofa.cpp
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
+sofa.h
+/home/krzylap/C++/Grebo/sofa.h
+
+/home/krzylap/C++/Grebo/sofa.h
+furniture.h
+/home/krzylap/C++/Grebo/furniture.h
 

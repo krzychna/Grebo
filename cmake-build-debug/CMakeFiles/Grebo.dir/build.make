@@ -81,69 +81,121 @@ CMakeFiles/Grebo.dir/main.cpp.o.provides: CMakeFiles/Grebo.dir/main.cpp.o.requir
 CMakeFiles/Grebo.dir/main.cpp.o.provides.build: CMakeFiles/Grebo.dir/main.cpp.o
 
 
-CMakeFiles/Grebo.dir/Klasy.cpp.o: CMakeFiles/Grebo.dir/flags.make
-CMakeFiles/Grebo.dir/Klasy.cpp.o: ../Klasy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Grebo.dir/Klasy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/Klasy.cpp.o -c /home/krzylap/C++/Grebo/Klasy.cpp
+CMakeFiles/Grebo.dir/furniture.cpp.o: CMakeFiles/Grebo.dir/flags.make
+CMakeFiles/Grebo.dir/furniture.cpp.o: ../furniture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Grebo.dir/furniture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/furniture.cpp.o -c /home/krzylap/C++/Grebo/furniture.cpp
 
-CMakeFiles/Grebo.dir/Klasy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/Klasy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/Klasy.cpp > CMakeFiles/Grebo.dir/Klasy.cpp.i
+CMakeFiles/Grebo.dir/furniture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/furniture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/furniture.cpp > CMakeFiles/Grebo.dir/furniture.cpp.i
 
-CMakeFiles/Grebo.dir/Klasy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/Klasy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/Klasy.cpp -o CMakeFiles/Grebo.dir/Klasy.cpp.s
+CMakeFiles/Grebo.dir/furniture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/furniture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/furniture.cpp -o CMakeFiles/Grebo.dir/furniture.cpp.s
 
-CMakeFiles/Grebo.dir/Klasy.cpp.o.requires:
+CMakeFiles/Grebo.dir/furniture.cpp.o.requires:
 
-.PHONY : CMakeFiles/Grebo.dir/Klasy.cpp.o.requires
+.PHONY : CMakeFiles/Grebo.dir/furniture.cpp.o.requires
 
-CMakeFiles/Grebo.dir/Klasy.cpp.o.provides: CMakeFiles/Grebo.dir/Klasy.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.o.provides.build
-.PHONY : CMakeFiles/Grebo.dir/Klasy.cpp.o.provides
+CMakeFiles/Grebo.dir/furniture.cpp.o.provides: CMakeFiles/Grebo.dir/furniture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/furniture.cpp.o.provides.build
+.PHONY : CMakeFiles/Grebo.dir/furniture.cpp.o.provides
 
-CMakeFiles/Grebo.dir/Klasy.cpp.o.provides.build: CMakeFiles/Grebo.dir/Klasy.cpp.o
+CMakeFiles/Grebo.dir/furniture.cpp.o.provides.build: CMakeFiles/Grebo.dir/furniture.cpp.o
 
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.o: CMakeFiles/Grebo.dir/flags.make
-CMakeFiles/Grebo.dir/Klasy2.cpp.o: ../Klasy2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Grebo.dir/Klasy2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/Klasy2.cpp.o -c /home/krzylap/C++/Grebo/Klasy2.cpp
+CMakeFiles/Grebo.dir/chair.cpp.o: CMakeFiles/Grebo.dir/flags.make
+CMakeFiles/Grebo.dir/chair.cpp.o: ../chair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Grebo.dir/chair.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/chair.cpp.o -c /home/krzylap/C++/Grebo/chair.cpp
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/Klasy2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/Klasy2.cpp > CMakeFiles/Grebo.dir/Klasy2.cpp.i
+CMakeFiles/Grebo.dir/chair.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/chair.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/chair.cpp > CMakeFiles/Grebo.dir/chair.cpp.i
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/Klasy2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/Klasy2.cpp -o CMakeFiles/Grebo.dir/Klasy2.cpp.s
+CMakeFiles/Grebo.dir/chair.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/chair.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/chair.cpp -o CMakeFiles/Grebo.dir/chair.cpp.s
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.o.requires:
+CMakeFiles/Grebo.dir/chair.cpp.o.requires:
 
-.PHONY : CMakeFiles/Grebo.dir/Klasy2.cpp.o.requires
+.PHONY : CMakeFiles/Grebo.dir/chair.cpp.o.requires
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.o.provides: CMakeFiles/Grebo.dir/Klasy2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.o.provides.build
-.PHONY : CMakeFiles/Grebo.dir/Klasy2.cpp.o.provides
+CMakeFiles/Grebo.dir/chair.cpp.o.provides: CMakeFiles/Grebo.dir/chair.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/chair.cpp.o.provides.build
+.PHONY : CMakeFiles/Grebo.dir/chair.cpp.o.provides
 
-CMakeFiles/Grebo.dir/Klasy2.cpp.o.provides.build: CMakeFiles/Grebo.dir/Klasy2.cpp.o
+CMakeFiles/Grebo.dir/chair.cpp.o.provides.build: CMakeFiles/Grebo.dir/chair.cpp.o
+
+
+CMakeFiles/Grebo.dir/sofa.cpp.o: CMakeFiles/Grebo.dir/flags.make
+CMakeFiles/Grebo.dir/sofa.cpp.o: ../sofa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Grebo.dir/sofa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/sofa.cpp.o -c /home/krzylap/C++/Grebo/sofa.cpp
+
+CMakeFiles/Grebo.dir/sofa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/sofa.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/sofa.cpp > CMakeFiles/Grebo.dir/sofa.cpp.i
+
+CMakeFiles/Grebo.dir/sofa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/sofa.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/sofa.cpp -o CMakeFiles/Grebo.dir/sofa.cpp.s
+
+CMakeFiles/Grebo.dir/sofa.cpp.o.requires:
+
+.PHONY : CMakeFiles/Grebo.dir/sofa.cpp.o.requires
+
+CMakeFiles/Grebo.dir/sofa.cpp.o.provides: CMakeFiles/Grebo.dir/sofa.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/sofa.cpp.o.provides.build
+.PHONY : CMakeFiles/Grebo.dir/sofa.cpp.o.provides
+
+CMakeFiles/Grebo.dir/sofa.cpp.o.provides.build: CMakeFiles/Grebo.dir/sofa.cpp.o
+
+
+CMakeFiles/Grebo.dir/Coach.cpp.o: CMakeFiles/Grebo.dir/flags.make
+CMakeFiles/Grebo.dir/Coach.cpp.o: ../Coach.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Grebo.dir/Coach.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Grebo.dir/Coach.cpp.o -c /home/krzylap/C++/Grebo/Coach.cpp
+
+CMakeFiles/Grebo.dir/Coach.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Grebo.dir/Coach.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krzylap/C++/Grebo/Coach.cpp > CMakeFiles/Grebo.dir/Coach.cpp.i
+
+CMakeFiles/Grebo.dir/Coach.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Grebo.dir/Coach.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krzylap/C++/Grebo/Coach.cpp -o CMakeFiles/Grebo.dir/Coach.cpp.s
+
+CMakeFiles/Grebo.dir/Coach.cpp.o.requires:
+
+.PHONY : CMakeFiles/Grebo.dir/Coach.cpp.o.requires
+
+CMakeFiles/Grebo.dir/Coach.cpp.o.provides: CMakeFiles/Grebo.dir/Coach.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Coach.cpp.o.provides.build
+.PHONY : CMakeFiles/Grebo.dir/Coach.cpp.o.provides
+
+CMakeFiles/Grebo.dir/Coach.cpp.o.provides.build: CMakeFiles/Grebo.dir/Coach.cpp.o
 
 
 # Object files for target Grebo
 Grebo_OBJECTS = \
 "CMakeFiles/Grebo.dir/main.cpp.o" \
-"CMakeFiles/Grebo.dir/Klasy.cpp.o" \
-"CMakeFiles/Grebo.dir/Klasy2.cpp.o"
+"CMakeFiles/Grebo.dir/furniture.cpp.o" \
+"CMakeFiles/Grebo.dir/chair.cpp.o" \
+"CMakeFiles/Grebo.dir/sofa.cpp.o" \
+"CMakeFiles/Grebo.dir/Coach.cpp.o"
 
 # External object files for target Grebo
 Grebo_EXTERNAL_OBJECTS =
 
 Grebo: CMakeFiles/Grebo.dir/main.cpp.o
-Grebo: CMakeFiles/Grebo.dir/Klasy.cpp.o
-Grebo: CMakeFiles/Grebo.dir/Klasy2.cpp.o
+Grebo: CMakeFiles/Grebo.dir/furniture.cpp.o
+Grebo: CMakeFiles/Grebo.dir/chair.cpp.o
+Grebo: CMakeFiles/Grebo.dir/sofa.cpp.o
+Grebo: CMakeFiles/Grebo.dir/Coach.cpp.o
 Grebo: CMakeFiles/Grebo.dir/build.make
 Grebo: CMakeFiles/Grebo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Grebo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krzylap/C++/Grebo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Grebo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Grebo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +204,10 @@ CMakeFiles/Grebo.dir/build: Grebo
 .PHONY : CMakeFiles/Grebo.dir/build
 
 CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/main.cpp.o.requires
-CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/Klasy.cpp.o.requires
-CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/Klasy2.cpp.o.requires
+CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/furniture.cpp.o.requires
+CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/chair.cpp.o.requires
+CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/sofa.cpp.o.requires
+CMakeFiles/Grebo.dir/requires: CMakeFiles/Grebo.dir/Coach.cpp.o.requires
 
 .PHONY : CMakeFiles/Grebo.dir/requires
 

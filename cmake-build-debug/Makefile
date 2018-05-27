@@ -123,59 +123,86 @@ Grebo/fast:
 	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/build
 .PHONY : Grebo/fast
 
-Klasy.o: Klasy.cpp.o
+Coach.o: Coach.cpp.o
 
-.PHONY : Klasy.o
-
-# target to build an object file
-Klasy.cpp.o:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.o
-.PHONY : Klasy.cpp.o
-
-Klasy.i: Klasy.cpp.i
-
-.PHONY : Klasy.i
-
-# target to preprocess a source file
-Klasy.cpp.i:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.i
-.PHONY : Klasy.cpp.i
-
-Klasy.s: Klasy.cpp.s
-
-.PHONY : Klasy.s
-
-# target to generate assembly for a file
-Klasy.cpp.s:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy.cpp.s
-.PHONY : Klasy.cpp.s
-
-Klasy2.o: Klasy2.cpp.o
-
-.PHONY : Klasy2.o
+.PHONY : Coach.o
 
 # target to build an object file
-Klasy2.cpp.o:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.o
-.PHONY : Klasy2.cpp.o
+Coach.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Coach.cpp.o
+.PHONY : Coach.cpp.o
 
-Klasy2.i: Klasy2.cpp.i
+Coach.i: Coach.cpp.i
 
-.PHONY : Klasy2.i
+.PHONY : Coach.i
 
 # target to preprocess a source file
-Klasy2.cpp.i:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.i
-.PHONY : Klasy2.cpp.i
+Coach.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Coach.cpp.i
+.PHONY : Coach.cpp.i
 
-Klasy2.s: Klasy2.cpp.s
+Coach.s: Coach.cpp.s
 
-.PHONY : Klasy2.s
+.PHONY : Coach.s
 
 # target to generate assembly for a file
-Klasy2.cpp.s:
-	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Klasy2.cpp.s
-.PHONY : Klasy2.cpp.s
+Coach.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/Coach.cpp.s
+.PHONY : Coach.cpp.s
+
+chair.o: chair.cpp.o
+
+.PHONY : chair.o
+
+# target to build an object file
+chair.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/chair.cpp.o
+.PHONY : chair.cpp.o
+
+chair.i: chair.cpp.i
+
+.PHONY : chair.i
+
+# target to preprocess a source file
+chair.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/chair.cpp.i
+.PHONY : chair.cpp.i
+
+chair.s: chair.cpp.s
+
+.PHONY : chair.s
+
+# target to generate assembly for a file
+chair.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/chair.cpp.s
+.PHONY : chair.cpp.s
+
+furniture.o: furniture.cpp.o
+
+.PHONY : furniture.o
+
+# target to build an object file
+furniture.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/furniture.cpp.o
+.PHONY : furniture.cpp.o
+
+furniture.i: furniture.cpp.i
+
+.PHONY : furniture.i
+
+# target to preprocess a source file
+furniture.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/furniture.cpp.i
+.PHONY : furniture.cpp.i
+
+furniture.s: furniture.cpp.s
+
+.PHONY : furniture.s
+
+# target to generate assembly for a file
+furniture.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/furniture.cpp.s
+.PHONY : furniture.cpp.s
 
 main.o: main.cpp.o
 
@@ -204,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sofa.o: sofa.cpp.o
+
+.PHONY : sofa.o
+
+# target to build an object file
+sofa.cpp.o:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/sofa.cpp.o
+.PHONY : sofa.cpp.o
+
+sofa.i: sofa.cpp.i
+
+.PHONY : sofa.i
+
+# target to preprocess a source file
+sofa.cpp.i:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/sofa.cpp.i
+.PHONY : sofa.cpp.i
+
+sofa.s: sofa.cpp.s
+
+.PHONY : sofa.s
+
+# target to generate assembly for a file
+sofa.cpp.s:
+	$(MAKE) -f CMakeFiles/Grebo.dir/build.make CMakeFiles/Grebo.dir/sofa.cpp.s
+.PHONY : sofa.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Grebo"
-	@echo "... Klasy.o"
-	@echo "... Klasy.i"
-	@echo "... Klasy.s"
-	@echo "... Klasy2.o"
-	@echo "... Klasy2.i"
-	@echo "... Klasy2.s"
+	@echo "... Coach.o"
+	@echo "... Coach.i"
+	@echo "... Coach.s"
+	@echo "... chair.o"
+	@echo "... chair.i"
+	@echo "... chair.s"
+	@echo "... furniture.o"
+	@echo "... furniture.i"
+	@echo "... furniture.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sofa.o"
+	@echo "... sofa.i"
+	@echo "... sofa.s"
 .PHONY : help
 
 

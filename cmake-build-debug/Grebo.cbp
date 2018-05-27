@@ -84,22 +84,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/krzylap/C++/Grebo/Klasy.cpp">
+		<Unit filename="/home/krzylap/C++/Grebo/Coach.cpp">
 			<Option target="Grebo"/>
 		</Unit>
-		<Unit filename="/home/krzylap/C++/Grebo/Klasy.h">
+		<Unit filename="/home/krzylap/C++/Grebo/Coach.h">
 			<Option target="Grebo"/>
 		</Unit>
-		<Unit filename="/home/krzylap/C++/Grebo/Klasy2.cpp">
+		<Unit filename="/home/krzylap/C++/Grebo/chair.cpp">
 			<Option target="Grebo"/>
 		</Unit>
-		<Unit filename="/home/krzylap/C++/Grebo/Klasy2.h">
+		<Unit filename="/home/krzylap/C++/Grebo/chair.h">
 			<Option target="Grebo"/>
 		</Unit>
-		<Unit filename="/home/krzylap/C++/Grebo/class.h">
+		<Unit filename="/home/krzylap/C++/Grebo/furniture.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/furniture.h">
 			<Option target="Grebo"/>
 		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/main.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/sofa.cpp">
+			<Option target="Grebo"/>
+		</Unit>
+		<Unit filename="/home/krzylap/C++/Grebo/sofa.h">
 			<Option target="Grebo"/>
 		</Unit>
 		<Unit filename="/home/krzylap/C++/Grebo/CMakeLists.txt">
